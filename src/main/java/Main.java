@@ -3,24 +3,24 @@ public class Main {
         // Создание экземпляра ArrayList
         ArrayList<Integer> myArrayList = new ArrayList<>();
 
-// Добавление элементов
+        // Добавление элементов
         myArrayList.add(10);
         myArrayList.add(5);
         myArrayList.add(8);
 
-// Вывод элемента по индексу
-        System.out.println(myArrayList.get(1));  // Выведет: 5
+        // Вывод элемента по индексу
+        System.out.println(myArrayList.get(1));
 
-// Добавление элемента по индексу
+        // Добавление элемента по индексу
         myArrayList.insert(1, 15);
 
-// Удаление элемента
+        // Удаление элемента
         myArrayList.remove(10);
 
-// Сортировка списка
+        // Сортировка списка
         myArrayList.sort();
 
-// Очистка коллекции
+        // Очистка коллекции
         myArrayList.clear();
 
     }
