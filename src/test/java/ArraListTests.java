@@ -41,7 +41,7 @@ public class ArraListTests {
         list.add(10);
         list.add(5);
         list.add(8);
-// удаляем второй элемент в ArrayList'e
+// удаляем второй элемент в ArrayList' (второй потому что элемент пять в первой ячейке)
         list.remove(5);
 
         assertEquals(Integer.valueOf(10), list.get(0));

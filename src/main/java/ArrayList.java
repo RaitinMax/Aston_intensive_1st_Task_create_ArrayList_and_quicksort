@@ -67,7 +67,6 @@ public class ArrayList<T> //дженерик (<T>) для обеспечения
     public void remove(T element) {
         // Находим индекс элемента
         int index = indexOf(element);
-
         if (index != -1)// если элемент не найден, то
         {
             // Удаляем элемент по индексу
