@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 public class ArraListTests {
 
-    //сравниваем ожидаемое и фактическое значение в Integer
+    /**сравниваем ожидаемое и фактическое значение в Integer*/
     @Test
     public void testAddAndGet() {
         ArrayList<Integer> list = new ArrayList<>();
@@ -19,7 +19,7 @@ public class ArraListTests {
     }
 
 
-    //сравниваем ожидаемое и фактическое значение в String
+    /**сравниваем ожидаемое и фактическое значение в String*/
     @Test
     public void testInsert() {
         ArrayList<String> list = new ArrayList<>();
